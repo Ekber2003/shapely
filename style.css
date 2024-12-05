@@ -1,0 +1,305 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+menu{
+    display: none;
+}
+header{
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    z-index: 10;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+.change{
+    background-image: url('deniz.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   height: 82vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    text-align: center;
+    padding: 50px;
+}
+.text h1 ,p{
+    color: white;
+}
+.text h1{
+    font-size: 2em;
+}
+.text p{
+    padding: 30px 0;
+}
+.text .btn-1{
+    padding: 22px 65px;
+    background-color: #745CF9;
+    border: none;
+    margin-bottom: 20px;
+}
+.text button{
+    transition: 1s;
+}
+.text .btn-2{
+    padding: 20px 47px;
+    background-color: transparent;
+    border: none;
+    border: 2px solid white;
+}
+.text .btn-2:hover{
+    background-color: white;
+}
+.text .btn-2:hover a{
+    color: black;
+}
+.text button a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: 1s;
+}
+#seo .sf img{
+    width: 100%;
+}
+#seo{
+    padding:0px 20px;
+}
+#seo h3{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+#seo p{
+    color: rgba(128, 128, 128, 0.719);
+    line-height: 2;
+    font-size: 0.9em;
+    padding: 45px 0;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: #745CF9;
+    padding: 18px 55px;
+}
+.lorem{
+    margin-bottom: 130px;
+}
+#sm{
+    background-image: url('photo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#sm .content{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 120px 10px;
+}
+#sm .content h1{
+    font-size: 3em;   
+    color: white;
+    font-weight: 100;
+}
+#sm .content p{
+    padding: 30px 0 50px 0;
+}
+#lim{
+    width: 100%;
+    text-align: center;
+}
+#lim .content{
+    padding-bottom: 100px;
+    text-align: center;
+}
+#lim .content h2{
+    font-size: 2.2em;
+    font-weight: 100;
+    padding-top: 70px;
+}
+#lim .content p{
+    color: #999;
+    padding: 60px 0;
+    width: 50%;
+    margin: auto;
+}
+#clients{
+    text-align: center;
+}
+#clients .a{
+    margin: 150px 0;
+    border-radius: 50%;
+}
+#clients h4{
+    font-size: 2em;
+    font-weight: 200;
+}
+#clients .box_hcj{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+#clients .box_hcj img{
+    transition: 0.5s;
+    opacity: 0.4;
+}
+#clients .box_hcj img:hover{
+    opacity:1;
+    cursor: pointer;
+}
+    /* --------------------------------Galery----------------------------- */
+    #our{
+        background-color: #0E1015;
+    }
+    #our .content{
+        padding: 100px 0px 50px 0px;
+        text-align: center;
+    }
+    #our .content h3{
+        color: white;
+        font-size:2em;
+        font-weight: 100;
+        padding-bottom: 25px;
+    }
+    #our .galery .box {
+        position: relative;
+    }
+    
+    #our .galery img {
+        width: 100%;
+    }
+    
+    #our .galery h3 {
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 10px;
+    }
+    #do{
+        text-align: center;
+        background-color: #F5F5F5;
+        padding: 100px 0;
+    }
+    #do h2{
+        padding-bottom: 30px;
+    }
+    #do button{
+        width: 100%;
+    }
+    footer{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 100px 0;
+        background-color: #0E1015;
+        position: relative;
+    }
+    footer .icons i{
+        color: white;
+        padding-right: 10px;
+        transition: .5s;
+    }
+    footer .icons i:hover{
+        color: blue;
+        cursor: pointer;
+    }
+    footer .up a{
+        color: white;
+        text-decoration: none;
+        border: 1px solid white;
+        padding: 12px;
+        position: absolute;
+        right: 2%;
+        bottom: 14%;
+    }
+@media only screen and (min-width: 768px) {
+    header nav menu{
+        display: flex;
+        list-style: none;
+    }
+    header nav menu li{
+        padding-left: 20px;
+    }
+    menu{
+        display: block;
+    }
+    .tre{
+        display: none;
+    }
+    .text h1{
+        font-size: 3.5em;
+    }
+    .s{
+        background-color: #F5F5F5;
+    }
+    #seo .sf{
+        padding: 100px 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+    }
+    #seo .sf img{
+        width: 55%;
+    }
+    #seo .sf .lorem{
+        width: 40%;
+        margin-top: 70px;
+    }
+    #seo .sf .lorem h3{
+        font-size: 2em;
+    }
+    #sm .content{
+        width: 100%;
+    }
+    #lim{
+        width: 80%;
+        margin: auto;
+    }
+    /* --------------------------------Galery----------------------------- */
+    #our .galery{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #our .galery .box {
+        position: relative;
+        width: 25%;
+    }
+    
+    #our .galery img {
+        width: 100%;
+    }
+    #our .galery h3 {
+        height: 0%;
+        opacity: 0%;
+        transition: 1s;
+    }
+    #our .galery .box:hover h3{
+        height: 100%;
+        opacity: 100%;
+    }
+    /* ---------------------------------------------------------------- */
+    #do{
+        display: flex;
+        justify-content: space-around;
+    }
+}
